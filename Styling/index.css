@@ -1,0 +1,88 @@
+.indexImg
+{
+    padding: 0;
+    margin: 0;
+}
+
+.indexImg img
+{
+    width: 100%;
+}
+
+.offerBody
+{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f1f5;
+}
+
+.trendOffer
+{
+    margin: 10px 5px;
+    padding: 0px 10px 25px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid grey;
+}
+
+.offerHeadings
+{
+    font-weight: 200;
+}
+
+.viewAll
+{
+    padding: 9px 15px;
+    background-color:#189203;
+    cursor: pointer;
+}
+
+.viewAll a
+{
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+.productDisplay {
+    width: 100%;
+}
+.productDisplay .card
+{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 15rem;
+    height: 15rem;
+    text-align: center;
+    font-family: arial;
+}
+
+.productDisplay .card img
+{
+    margin-bottom: 0.5rem;
+    width: 5rem;
+    height: 63%;
+}
+
+.productDisplay .card .productName
+{
+    margin:0.5rem;
+    font-weight: 700;
+}
+.productDisplay .card .productDis
+{
+    margin:0.5rem;
+    font-weight: 600;
+    color:#189203;
+}
+.productDisplay .card .currentPrice
+{
+    margin:0.5rem;
+    font-weight: 600;
+    color: grey;
+}
